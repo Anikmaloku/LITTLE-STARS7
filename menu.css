@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+
+.ushqime {
+    display: flex;
+    grid-row: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.food {
+    background: black;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.937);
+}
+.food img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+}
+
+.food .price {
+    font-size: 16px;
+    color: #f6f0f0;
+    font-weight: bold;
+}
+
+.food .reviews {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+header{
+    text-align: center;
+    padding: 40px;
+    border: 1px solid pink;
+    color: palevioletred;
+    background-color: pink;
+}
